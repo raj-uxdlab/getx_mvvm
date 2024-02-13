@@ -1,0 +1,58 @@
+import 'package:get/get_navigation/src/root/internacionalization.dart';
+
+class Languages extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        'en': {
+          'hello': 'Hello World',
+          'change_language': 'Change Language',
+          'english': 'English',
+          'spanish': 'Spanish',
+          'dark_mode': 'Dark Mode',
+          'light_mode': 'Light Mode',
+          'splash_screen': 'Splash Screen',
+          'home': 'Home',
+          'settings': 'Settings',
+          'profile': 'Profile',
+          'logout': 'Logout',
+          'theme': 'Theme',
+          'language': 'Language',
+          'app_name': 'Getx MVVM',
+          'login': 'Login',
+          'email': 'Email',
+          'password': 'Password',
+          'forgot_password': 'Forgot Password',
+          'dont_have_account': 'Don\'t have an account?',
+          'register': 'Register',
+          'already_have_account': 'Already have an account?',
+          'login_here': 'Login here',
+          'register_here': 'Register here',
+          'name': 'Name',
+          'confirm_password': 'Confirm Password',
+          'register_button': 'Register',
+          'login_button': 'Login',
+          'email_required': 'Email is required',
+          'email_invalid': 'Email is invalid',
+          'password_required': 'Password is required',
+          'password_length': 'Password must be at least 6 characters',
+          'password_not_match': 'Password does not match',
+          'name_required': 'Name is required',
+          'confirm_password_required': 'Confirm Password is required',
+          'confirm_password_not_match': 'Confirm Password does not match',
+          'forgot_password_title': 'Forgot Password',
+          'forgot_password_subtitle':
+              'Enter your email and we will send you a link to reset your password',
+          'send_reset_link': 'Send Reset Link',
+          'reset_password_title': 'Reset Password',
+          'reset_password_subtitle': 'Enter your new password',
+          'reset_password_button': 'Reset Password',
+          'reset_password_success': 'Password reset successful',
+          'reset_password_failed': 'Password reset failed',
+          'reset_password_email_sent': 'Password reset email sent',
+          'reset_password_email_not_sent': 'Password reset email not sent',
+          'logout_message': 'Are you sure you want to logout?',
+          'yes': 'Yes',
+          'no': 'No',
+        }
+      };
+}
